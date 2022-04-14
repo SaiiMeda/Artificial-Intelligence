@@ -21,7 +21,11 @@
 # search strategy for this assignment.
 # --------------------------------------------------------------------------------
 
+import copy
+from operator import truediv
 import random
+from socket import gaierror
+import string
 import sys
 import getopt
 from unicodedata import numeric
@@ -103,7 +107,6 @@ class State:
         outstr = str(bin(int(self.numeric)))
         outstr = outstr[2:]
         if len(outstr) < 16:
-            print("length", len(outstr))
             for i in range(0, 16 - len(outstr)):
                 outstr += ('0')
 
@@ -118,37 +121,35 @@ class State:
         for i in range(0, len(result)):
             lst = [x for x in result[i]]
             final.append(lst)
-        mapper = {
-            15 : "0",
-            14 : "1",
-            13 : "2",
-            12 : "3",
-            11 : "4",
-            10 : "5",
-            9 : "6",
-            8 : "7",
-            7 : "8",
-            6 : "9",
-            5 : "A",
-            4 : "B",
-            3 : "C",
-            2 : "D",
-            1 : "E",
-            0 : "F",
-        }
+        # mapper = {
+        #     15 : "0",
+        #     14 : "1",
+        #     13 : "2",
+        #     12 : "3",
+        #     11 : "4",
+        #     10 : "5",
+        #     9 : "6",
+        #     8 : "7",
+        #     7 : "8",
+        #     6 : "9",
+        #     5 : "A",
+        #     4 : "B",
+        #     3 : "C",
+        #     2 : "D",
+        #     1 : "E",
+        #     0 : "F",
+        # }
 
         for x in range(0, len(final)):
             for y in range(0, len(final[x])):
                 for dx, dy in [[0, 1], [1, 1], [1, 0], [1,-1], [0, -1], [-1, 0], [-1, -1], [-1, 1]]:
-                    if (0 <= y + (dy * 2) <= (BOARD_COLS - 1) and 0 <= x + (dx * 2) <= (BOARD_ROWS - 1)):
-                        # print(x + (dx * 2), y + (dy * 2))
+                    if (0 <= y + (dy * 2) <= (BOARD_COLS - 1) and 0 <= x + (dx * 2) <= (BOARD_ROWS - 1)): #Checks if the jumps are valid
                         jumper = (x * BOARD_ROWS) + y
                         goner = ((x + dx) * BOARD_ROWS) + (y + dy)
                         newpos = ((x + (dx*2)) * BOARD_ROWS) + (y + (dy*2))
                         rule = Rule([jumper, goner, newpos])
-                        # print(line)
                         if rule.precondition(State(self.numeric)):
-                            rules.append([mapper[jumper],mapper[goner],mapper[newpos]])
+                            rules.append([jumper,goner,newpos])
         return rules
 
     def goal(self):
@@ -156,7 +157,7 @@ class State:
         # Returns True if state equals a given GOAL_STATE, e.g., the state
         # with exactly 1 peg, in position 9.
         # -----------------------------------------------------------------
-        return self.numeric == GOAL_STATE
+        return self.numeric == GOAL_STATE.numeric
 
 
 # --------------------------------------------------------------------------------
@@ -199,18 +200,16 @@ class Rule:
         # -----------------------------------------------------------------
         # Returns a new state formed by applying rule to state.
         # -----------------------------------------------------------------
-        x = str(state.numeric)[2:]
-
-        x[self.jumper] = 1
-        x[self.goner] = 1
-        x[self.newpos] = 0
-
-        newState = State(int(x, 2))
-
-        return State(newState)
+        # print('numeric', state.numeric)
+        x = state.numeric - (2 ** (int(self.jumper))) - (2 ** (int(self.goner))) + (2 ** int(self.newpos)) 
+        newState = State(x)
+        return newState
 
     def precondition(self, state):
         final = str(bin(state.numeric))[2:]
+        final = final.zfill(16)           
+        # print('this is final',final)
+        # print(self.jumper,self.goner,final[self.newpos]) 
         # result = [line[i:i+4] for i in range(0, len(line), 4)]
         # final = []
 
@@ -222,9 +221,20 @@ class Rule:
 
         return False
     
-def flailWildy(state):
-    
-    print('bruh')
+def flailWildly(state):
+    # print("HERE",state.numeric)
+    newstate = copy.deepcopy(state)
+    while (not newstate.goal()) :
+        L = newstate.applicableRules()
+        print
+        if not L:
+            return "Dead End"
+        rule = Rule(random.choice(L))
+        print(rule)
+        newstate = rule.applyRule(newstate)
+
+    return 'SUCCESS'
+
 
 # --------------------------------------------------------------------------------
 
@@ -240,9 +250,10 @@ if __name__ == "__main__":
     #    python3 pegboard_base.py 4 4
     # --------------------------------------------------------------------------------
 
-    BOARD_ROWS = int(get_arg(1))
-    BOARD_COLS = int(get_arg(2))
-
+    # BOARD_ROWS = int(get_arg(1))
+    # BOARD_COLS = int(get_arg(2))
+    BOARD_ROWS = 4
+    BOARD_COLS = 4
     # -----------------------------------------------------------------
     # Create numeric peg values peg[i] = 2^i, for each peg position in
     # the board.  If a state contains a peg in position i, the value of
@@ -270,8 +281,6 @@ if __name__ == "__main__":
     initialState = FULL_BOARD - (peg[9])
     print("\ninitialState = %s" % initialState)
     initialState = State(initialState)
-    print(initialState)
-    print(GOAL_STATE)
 
 
 #     #-----------------------------------------------------------------
@@ -279,12 +288,11 @@ if __name__ == "__main__":
 #     #-----------------------------------------------------------------
 #
     rules = initialState.applicableRules()
-    print("Applicable rules:", rules)
 
     for r in rules:
         print(r)
-        
 
+    print(flailWildly(initialState))
 
 # -----------------------------------------------------------------
 

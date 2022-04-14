@@ -1,0 +1,7 @@
+HOMEWORK 1 - SAI MEDA
+There are no command line arguments required since the default is 4x4 so they're manually set. 
+Initial State that is set is all pegs are placed except the one on the 9th.
+No helper functions were written.
+The Applicable rules gives all the list of rules that can be applied. 
+The Flail Wildly part is finished and the results are in the TestResults.txt
+It runs into dead end states constantly where there are no rules that can be applied.
