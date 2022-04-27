@@ -1,0 +1,5 @@
+Both problems reach goal states. No extra Credit has been completed.
+foxgoosecorn has verbose ON by default.
+pegboard needs to be run with 'pegboard_backtrack.py 4 4 verbose' for verbose to work.
+A know issue is with printing, it prints the same peg rule without moving to next as I'm appending incorrectly but the goal state is working as normal.
+Both tests are in the test files with verbose included.

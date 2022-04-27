@@ -1,0 +1,682 @@
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer and goose from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 4
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and goose from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and corn from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 4
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 4
+[[ farmer fox goose ][ corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer and goose from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 4
+[[ farmer fox goose corn ][ ]]
+Move farmer and goose from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 4
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer and goose from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 4
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and goose from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and corn from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 4
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 4
+[[ farmer fox goose ][ corn ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose corn ][ ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose corn ][ ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+FAILED - 4
+[[ fox corn ][ farmer goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer and goose from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and corn from Left to Right
+[[ fox ][ farmer goose corn ]]
+FAILED - 4
+[[ fox ][ farmer goose corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 4
+[[ farmer fox corn ][ goose ]]
+Move farmer and fox from Right to Left
+[[ farmer fox corn ][ goose ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and goose from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer and corn from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 4
+[[ farmer goose corn ][ fox ]]
+Move farmer and goose from Left to Right
+[[ corn ][ farmer fox goose ]]
+FAILED - 4
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose ][ fox corn ]]
+Move farmer and fox from Right to Left
+[[ farmer fox goose ][ corn ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer fox goose ][ corn ]]
+Move farmer and corn from Right to Left
+[[ farmer goose corn ][ fox ]]
+FAILED - 2 : Max Depth Exceded
+[[ farmer goose corn ][ fox ]]
+Move farmer from Left to Right
+[[ goose ][ farmer fox corn ]]
+FAILED - 4
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Left to Right
+[[ ][ farmer fox goose corn ]]
+GOALLLLL
+[[ ][ farmer fox goose corn ]]
+Move farmer from Right to Left
+[[ farmer goose ][ fox corn ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>]]
+[[ farmer goose ][ fox corn ]]
+Move farmer and corn from Left to Right
+[[ goose ][ farmer fox corn ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>]]
+[[ goose ][ farmer fox corn ]]
+Move farmer and goose from Right to Left
+[[ farmer goose corn ][ fox ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>]]
+[[ farmer goose corn ][ fox ]]
+Move farmer and fox from Left to Right
+[[ corn ][ farmer fox goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>]]
+[[ corn ][ farmer fox goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>]]
+[[ farmer fox corn ][ goose ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>]]
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>]]
+[[ farmer fox corn ][ goose ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>]]
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>]]
+[[ farmer fox corn ][ goose ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>], [<__main__.Rule object at 0x103094730>, <__main__.State object at 0x103094610>]]
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>], [<__main__.Rule object at 0x103094730>, <__main__.State object at 0x103094610>], [<__main__.Rule object at 0x1030943a0>, <__main__.State object at 0x1030943d0>]]
+[[ farmer fox corn ][ goose ]]
+Move farmer from Left to Right
+[[ fox corn ][ farmer goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>], [<__main__.Rule object at 0x103094730>, <__main__.State object at 0x103094610>], [<__main__.Rule object at 0x1030943a0>, <__main__.State object at 0x1030943d0>], [<__main__.Rule object at 0x103094190>, <__main__.State object at 0x103094070>]]
+[[ fox corn ][ farmer goose ]]
+Move farmer from Right to Left
+[[ farmer fox corn ][ goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>], [<__main__.Rule object at 0x103094730>, <__main__.State object at 0x103094610>], [<__main__.Rule object at 0x1030943a0>, <__main__.State object at 0x1030943d0>], [<__main__.Rule object at 0x103094190>, <__main__.State object at 0x103094070>], [<__main__.Rule object at 0x102f97e50>, <__main__.State object at 0x103094160>]]
+[[ farmer fox corn ][ goose ]]
+Move farmer and goose from Left to Right
+[[ fox corn ][ farmer goose ]]
+[[<__main__.Rule object at 0x1030c8f40>, <__main__.State object at 0x1030beda0>], [<__main__.Rule object at 0x1030b7520>, <__main__.State object at 0x1030bbfa0>], [<__main__.Rule object at 0x103096470>, <__main__.State object at 0x1030979d0>], [<__main__.Rule object at 0x1030ae6b0>, <__main__.State object at 0x103096230>], [<__main__.Rule object at 0x103095fc0>, <__main__.State object at 0x1030afdc0>], [<__main__.Rule object at 0x1030956f0>, <__main__.State object at 0x1030955d0>], [<__main__.Rule object at 0x1030951e0>, <__main__.State object at 0x103095210>], [<__main__.Rule object at 0x103094e50>, <__main__.State object at 0x103094d30>], [<__main__.Rule object at 0x103094a00>, <__main__.State object at 0x103094a30>], [<__main__.Rule object at 0x103094730>, <__main__.State object at 0x103094610>], [<__main__.Rule object at 0x1030943a0>, <__main__.State object at 0x1030943d0>], [<__main__.Rule object at 0x103094190>, <__main__.State object at 0x103094070>], [<__main__.Rule object at 0x102f97e50>, <__main__.State object at 0x103094160>], [<__main__.Rule object at 0x102f97ca0>, <__main__.State object at 0x102f97c70>]]
+[[ fox corn ][ farmer goose ]]
+Move farmer and goose from Left to Right STATE REACHED: [[ ][ farmer fox goose corn ]]
+True
+Move farmer from Right to Left STATE REACHED: [[ farmer goose ][ fox corn ]]
+False
+Move farmer and corn from Left to Right STATE REACHED: [[ goose ][ farmer fox corn ]]
+False
+Move farmer and goose from Right to Left STATE REACHED: [[ farmer goose corn ][ fox ]]
+False
+Move farmer and fox from Left to Right STATE REACHED: [[ corn ][ farmer fox goose ]]
+False
+Move farmer from Right to Left STATE REACHED: [[ farmer fox corn ][ goose ]]
+False
+Move farmer from Left to Right STATE REACHED: [[ fox corn ][ farmer goose ]]
+False
+Move farmer from Right to Left STATE REACHED: [[ farmer fox corn ][ goose ]]
+False
+Move farmer from Left to Right STATE REACHED: [[ fox corn ][ farmer goose ]]
+False
+Move farmer from Right to Left STATE REACHED: [[ farmer fox corn ][ goose ]]
+False
+Move farmer from Left to Right STATE REACHED: [[ fox corn ][ farmer goose ]]
+False
+Move farmer from Right to Left STATE REACHED: [[ farmer fox corn ][ goose ]]
+False
+Move farmer from Left to Right STATE REACHED: [[ fox corn ][ farmer goose ]]
+False
+Move farmer from Right to Left STATE REACHED: [[ farmer fox corn ][ goose ]]
+False
+Move farmer and goose from Left to Right STATE REACHED: [[ fox corn ][ farmer goose ]]
+False
