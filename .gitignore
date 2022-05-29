@@ -8,7 +8,8 @@ __pycache__/
 
 #Apple stuff
 .DS_Store
-
+#vs Code
+.vscode
 # Distribution / packaging
 .Python
 build/
